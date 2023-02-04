@@ -97,7 +97,7 @@ function setup() {
   // These variables set basic things about the drawing
   // You can change these to change the style of it
   pointSize = 1;
-  pointsPerLine = 500;
+  pointsPerLine = 250;
   lengthUnit = 0.04;
   pointColor = color(255);
   bgColor = color(28,28,30);

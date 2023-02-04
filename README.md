@@ -1,3 +1,7 @@
+# Demo
+
+Try out the project here: https://lassigithub.github.io/Generative-art-lines/
+
 # Description
 
 This is a generative art script. It generates art based on randomness, so you get different results every time you run it. You can also adjust the two sliders on the page, or some of the variables in setup(), to get different looking art.
