@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generative art</title>
+</head>
+<body>
+
+    <h1 id="main-header">Generative Art</h1>
+    
+    <div id="canvas-container-outer">
+        <div id="canvas-container"></div>
+    </div>
+
+    <div class="slider-container">
+        <label for="offset-slider">Generation seed</label>
+        <input type="range" min="0" max="100" value="0" id="offset-slider" name="Generation seed slider">
+    </div>
+
+    <div class="slider-container">
+        <label for="speed-slider">Animation speed</label>
+        <input type="range" min="0" max="0.002" value="0" step="0.0001" id="speed-slider" name="Animation speed slider">
+    </div>
+
+    <!-- Link to the open source p5.js library -->
+    <!-- https://p5js.org/ -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+    
+    <script src="sketch.js"></script>
+</body>
+</html>
